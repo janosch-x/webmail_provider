@@ -10,7 +10,7 @@ class WebmailProvider
   end
 
   def self.for(email_address)
-    domain = email_address && email_address.split('@').last.strip
+    domain = email_address && email_address.split('@').last.to_s.strip
     list[domain]
   end
 

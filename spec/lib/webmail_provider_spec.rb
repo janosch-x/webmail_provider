@@ -28,6 +28,10 @@ describe WebmailProvider do
         .to be_nil
     end
 
+    it 'returns nil for empty string' do
+      expect(WebmailProvider.for('')).to be_nil
+    end
+
     it 'returns nil for nil' do
       expect(WebmailProvider.for(nil)).to be_nil
     end
