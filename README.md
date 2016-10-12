@@ -2,6 +2,8 @@
 
 [![Gem Version](https://badge.fury.io/rb/webmail_provider.svg)](http://badge.fury.io/rb/webmail_provider)
 
+WebmailProvider returns provider names and login URLs for email addresses of some common German and international webmail domains.
+
 ## Installation
 
 Add, install, or require `webmail_provider`.
