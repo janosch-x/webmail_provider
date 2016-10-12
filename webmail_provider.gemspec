@@ -2,7 +2,7 @@
 Gem::Specification.new do |s|
   s.platform    = Gem::Platform::RUBY
   s.name        = 'webmail_provider'
-  s.version     = '0.9.0'
+  s.version     = '0.9.1'
   s.license     = 'MIT'
 
   s.summary     = 'Returns webmail provider information for email addresses'
